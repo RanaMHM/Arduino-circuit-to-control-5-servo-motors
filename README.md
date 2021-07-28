@@ -1,7 +1,7 @@
 # Arduino circuit to control 5servo motors
 * **Design an Arduino circuit to control 5 servo motors .**<br>
  * **Program the servo motors at 90 deg .** <br>
- * **Control the motors by using potentiometer.**
+ * **Control the motors by using potentiometer.** <br>
 
 ## ❶ The design
  
@@ -19,7 +19,8 @@
 
 
 ![Mighty Blorr-Allis](https://user-images.githubusercontent.com/52053143/127379225-e7b40c0e-a877-47f6-bc79-72eaedc11fe9.png)
-<br>
+<br><br>
+***
 ## ❷ Program the servo motors at 90 degre
 
 Programming the circuit in C++ so that all motors are at (90) degrees.
@@ -57,6 +58,8 @@ void loop() {
 ![Mighty Blorr-Allis (1)](https://user-images.githubusercontent.com/52053143/127381496-aed49684-ccc2-4d17-a841-b0cecba172b1.png)
 
 <br>
+
+***
 
 ## ❸ Control the motors by using potentiometer
 
