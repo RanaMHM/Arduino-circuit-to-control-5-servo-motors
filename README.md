@@ -7,4 +7,5 @@
 
 ## The design
  
-  <div> The circuit was designed by [Tinkercad](https://www.tinkercad.com/dashboard) <img width="100" src="https://user-images.githubusercontent.com/52053143/127372588-fb30e614-62b4-4f9a-bda3-eaf2061234e0.png"> </div> 
+
+ <div> The circuit was designed by <a href=https://www.tinkercad.com/dashboard>Tinkercad. </a> &nbsp; <img width="100" src="https://user-images.githubusercontent.com/52053143/127372588-fb30e614-62b4-4f9a-bda3-eaf2061234e0.png"> </div> 
