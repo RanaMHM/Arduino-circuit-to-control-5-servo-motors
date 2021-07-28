@@ -61,7 +61,66 @@ void loop() {
 
 ***
 
-## ❸ Control the motors by using potentiometer
+## ❸ Control the motors by using potentiomete
+&nbsp; &nbsp;&nbsp; Add &nbsp; <img width="92" alt="p" src="https://user-images.githubusercontent.com/52053143/127400425-418bcf01-1aa8-4513-862e-fd54669e8b8b.png"> &nbsp; to the previous circle
+
+Programming the circuit in C++
+```
+// C++ code
+#include <Servo.h>
+
+Servo servo1; 
+Servo servo2;
+Servo servo3;
+Servo servo4;
+Servo servo5;
+
+int value; // variable to read the value from the analog pin
+int angle; //variable to store the mapped angle
+
+void setup()
+{
+   servo1.attach(3);
+  servo2.attach(5); 
+  servo3.attach(6); 
+  servo4.attach(9);
+   servo5.attach(10);
+}
+void loop()
+{
+  value = analogRead(A0);
+   angle = map(value, 0, 1023, 0, 90); // scale it to use it with the servo
+     servo1.write(angle); 
+  
+  value = analogRead(A1);
+   angle = map(value, 0, 1023, 0, 90); // scale it to use it with the servo
+     servo2.write(angle); 
+  
+  value = analogRead(A2);
+   angle = map(value, 0, 1023, 0, 90); // scale it to use it with the servo
+     servo3.write(angle); 
+  
+  value = analogRead(A3);
+  angle = map(value, 0, 1023, 0,90); // scale it to use it with the servo
+  servo4.write(angle); 
+  
+  value = analogRead(A4);
+  angle = map(value, 0, 1023, 0, 1023); // scale it to use it with the servo
+  servo5.write(angle);
+   
+  delay(15); // waits for the servo to get there
+}
+```
+
+<br>
+
+
+
+
+https://user-images.githubusercontent.com/52053143/127401626-86b8c2de-d418-4da8-91e4-5da67ff22d29.mp4
+
+
+
 
 
  
