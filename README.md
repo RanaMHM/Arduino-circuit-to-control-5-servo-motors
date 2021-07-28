@@ -62,7 +62,7 @@ void loop() {
 ***
 
 ## ❸ Control the motors by using potentiomete
-&nbsp; &nbsp;&nbsp; Add &nbsp; <img width="92" alt="p" src="https://user-images.githubusercontent.com/52053143/127400425-418bcf01-1aa8-4513-862e-fd54669e8b8b.png"> &nbsp; to the previous circle
+&nbsp; &nbsp;&nbsp; Add &nbsp; <img width="92" alt="p" src="https://user-images.githubusercontent.com/52053143/127400425-418bcf01-1aa8-4513-862e-fd54669e8b8b.png"> &nbsp; to the previous circuit
 
 Programming the circuit in C++
 ```
