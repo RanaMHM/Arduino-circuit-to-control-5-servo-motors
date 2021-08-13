@@ -21,7 +21,7 @@
 ![Mighty Blorr-Allis](https://user-images.githubusercontent.com/52053143/127379225-e7b40c0e-a877-47f6-bc79-72eaedc11fe9.png)
 <br><br>
 ***
-## ❷ Program the servo motors at 90 degre
+## ❷ Program the servo motors at 90 degree
 
 Programming the circuit in C++ so that all motors are at (90) degrees.
 ```
